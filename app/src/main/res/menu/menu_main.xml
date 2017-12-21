@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"><![CDATA[
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="kwoc.sagar.tictactoe.MainActivity">
+        ]]>
+        <item
+            android:id="@+id/reset"
+            android:title="@string/reset"
+            android:icon = "@drawable/reset"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/home"
+            android:orderInCategory="101"
+            android:title="@string/home"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/about"
+            android:orderInCategory="101"
+            android:title="@string/about"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/help"
+            android:orderInCategory="101"
+            android:title="@string/help"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/exit"
+            android:orderInCategory="101"
+            android:title="@string/exit"
+            app:showAsAction="never" />
+</menu>
